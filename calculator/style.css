@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #efeff2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 300px;
+  height: 450px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  background-color: #22252d;
+}
+
+form input {
+  width: 98%;
+  height: 100px;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+  background-color: rgb(110, 107, 107);
+  text-align: right;
+  pointer-events: none;
+  margin: 3px;
+}
+
+button {
+  width: 60px;
+  height: 52px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 0 0 22%;
+  border: 1px solid black;
+  margin: 5px 0;
+}
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.btn-yellow {
+  background-color: rgb(209, 209, 42);
+  color: white;
+}
+.btn-grey {
+  background-color: rgb(245, 245, 238);
+}
+.btn-equ {
+  background-color: rgb(7, 128, 13);
+}
+.btn-clear {
+  background-color: rgb(189, 45, 26);
+}
