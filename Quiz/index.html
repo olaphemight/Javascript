@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="quiz-app">
+        <div class="heading">
+          <h1>JavaScript</h1>
+          <p>Text your knowledge of JavaScript</p>
+        </div>
+        <div class="result hide">
+          <p>you score 5/5</p>
+          <button>Try Again</button>
+        </div>
+
+        <form id="quiz">
+          <!-- Question 1 -->
+          <div class="questions">
+            <p>1. What is JavaScript?</p>
+            <div class="options">
+              <input type="radio" name="q1" value="A" />
+              <label for="">
+                Is a hight level, interpreted programing Language to create
+                interactive web pages and online apps with dynamic
+                functionality</label
+              >
+            </div>
+            <div class="options">
+              <input type="radio" name="q1" value="B" />
+              <label for="">JavaScriptis a machine Language</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q1" value="C" />
+              <label for=""
+                >JavaScriptis majorly used for a back-end work</label
+              >
+            </div>
+            <div class="options">
+              <input type="radio" name="q1" value="D" />
+              <label for=""
+                >A JavaScript embedded in an HTML document is compiled and
+                executed by the client.</label
+              >
+            </div>
+          </div>
+          <!-- Question 2 -->
+          <div class="questions">
+            <p>2. What are the different data types in JavaScript?</p>
+            <div class="options">
+              <input type="radio" name="q2" value="A" />
+              <label for="">Primitive and Non-primitive</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q2" value="B" />
+              <label for="">Integer and String</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q2" value="C" />
+              <label for="">Number and Array</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q2" value="D" />
+              <label for=""> Object and Array</label>
+            </div>
+          </div>
+          <!-- Question 3 -->
+          <div class="questions">
+            <p>3. What is hoisting in JavaScript?</p>
+            <div class="options">
+              <input type="radio" name="q3" value="A" />
+              <label for="">
+                the process of moving declarations below their scope.
+              </label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q3" value="B" />
+              <label for="">
+                the process of moving declarations to the top of their scope.
+              </label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q3" value="C" />
+              <label for=""
+                >declarations of functions and variable before use</label
+              >
+            </div>
+            <div class="options">
+              <input type="radio" name="q3" value="D" />
+              <label for="">Hoisten are data types</label>
+            </div>
+          </div>
+          <!-- Question 4 -->
+          <div class="questions">
+            <p>4. What is the difference between null and undefined?</p>
+            <div class="options">
+              <input type="radio" name="q4" value="A" />
+              <label for=""
+                >null ia an assigned value while undefined is an empty
+                value</label
+              >
+            </div>
+            <div class="options">
+              <input type="radio" name="q4" value="B" />
+              <label for=""
+                >null is a decleared value while undefined is an undeclared
+                value</label
+              >
+            </div>
+            <div class="options">
+              <input type="radio" name="q4" value="C" />
+              <label for=""
+                >null is an assignment value that represents no value or an
+                empty value, while undefined is a variable that has been
+                declared but not assigned a value.</label
+              >
+            </div>
+            <div class="options">
+              <input type="radio" name="q4" value="D" />
+              <label for=""
+                >null is a variable that has been declared but not assigned a
+                value, while undefined is an assigned value that represents no
+                value
+              </label>
+            </div>
+          </div>
+          <!-- Question 5 -->
+          <div class="questions">
+            <p>
+              5. What is the difference between == and === operators in
+              JavaScript?
+            </p>
+            <div class="options">
+              <input type="radio" name="q5" value="A" />
+              <label for="">Primitive and Non-primitive</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q5" value="B" />
+              <label for="">== is a boolean, === is an operator</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q5" value="C" />
+              <label for=""
+                >The equality == operator compares two values and returns true
+                if they are equal The strict equality === compares two values
+                and returns true only if they are equal and of the same type.
+              </label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q5" value="D" />
+              <label for=""> === is a truthy value, == is a falsy value</label>
+            </div>
+          </div>
+          <!-- Question 6 -->
+          <div class="questions">
+            <p>6. What is the difference between “let” and “const”?</p>
+            <div class="options">
+              <input type="radio" name="q6" value="A" />
+              <label for=""
+                >Let is reassignable, const is non-reassignable</label
+              >
+            </div>
+            <div class="options">
+              <input type="radio" name="q6" value="B" />
+              <label for=""
+                >Let is a local scope, const is a global scope</label
+              >
+            </div>
+            <div class="options">
+              <input type="radio" name="q6" value="C" />
+              <label for=""
+                >Let is specific to a single element, const can be assigned to
+                multiple element</label
+              >
+            </div>
+            <div class="options">
+              <input type="radio" name="q6" value="D" />
+              <label for=""> let is a variable, const is a function</label>
+            </div>
+          </div>
+          <!-- Question 7 -->
+          <div class="questions">
+            <p>7. The three major way of declaring function are:</p>
+            <div class="options">
+              <input type="radio" name="q7" value="A" />
+              <label for="">declaration, Expression, Arrow function</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q7" value="B" />
+              <label for="">Let, Const and var</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q7" value="C" />
+              <label for="">this., ()</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q7" value="D" />
+              <label for=""> bind and call</label>
+            </div>
+          </div>
+          <!-- Question 8 -->
+          <div class="questions">
+            <p>
+              8. Errors occur when the JavaScript code is not syntactically
+              correct are called.?
+            </p>
+            <div class="options">
+              <input type="radio" name="q8" value="A" />
+              <label for="">LOgical Errors</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q8" value="B" />
+              <label for="">Syntax Errors</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q8" value="C" />
+              <label for="">machine Errors</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q8" value="D" />
+              <label for=""> Runtime Errors</label>
+            </div>
+          </div>
+          <!-- Question 9 -->
+          <div class="questions">
+            <p>
+              9. Errors that occur when the JavaScript code is executed and
+              there is a problem are known as?
+            </p>
+            <div class="options">
+              <input type="radio" name="q9" value="A" />
+              <label for="">Syntax Errors</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q9" value="B" />
+              <label for="">LOgical Errors</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q9" value="C" />
+              <label for="">Machine Errors</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q9" value="D" />
+              <label for="">Runtime Errors</label>
+            </div>
+          </div>
+          <!-- Question 10 -->
+          <div class="questions">
+            <p>10.What is a callback function in JavaScript?</p>
+            <div class="options">
+              <input type="radio" name="q10" value="A" />
+              <label for="">Is a parameter</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q10" value="B" />
+              <label for=""
+                >Is function passed as an argument to another function</label
+              >
+            </div>
+            <div class="options">
+              <input type="radio" name="q10" value="C" />
+              <label for="">Is a function Expression</label>
+            </div>
+            <div class="options">
+              <input type="radio" name="q10" value="D" />
+              <label for=""> Is a truthy value</label>
+            </div>
+          </div>
+          <div class="submit">
+            <input type="submit" value="submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
