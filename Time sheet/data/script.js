@@ -98,7 +98,7 @@ function timeDiff(record) {
   // console.log(hours);
   const minutes = Math.floor((diff % 3600) / 60);
   // console.log(min);
-  let duration = `${hours}h : ${min}mins.`;
+  let duration = `${hours}h : ${minutes}mins.`;
   return duration;
 }
 
