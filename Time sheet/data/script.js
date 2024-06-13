@@ -138,7 +138,9 @@ function updateData(index) {
 
 // Delete
 function deleteData(index) {
-  if (timeSheets.length) {
+  if (timeSheets.length  &&
+    confirm("Are you sure you want to delete this row!") {
+    //console.log("Deleted")
     timeSheets.splice(index, 1);
     localStorage.setItem("timeSheets", JSON.stringify(timeSheets));
   }
