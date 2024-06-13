@@ -143,6 +143,7 @@ function deleteData(index) {
     //console.log("Deleted")
     timeSheets.splice(index, 1);
     localStorage.setItem("timeSheets", JSON.stringify(timeSheets));
+    showData();
   }
 }
 
