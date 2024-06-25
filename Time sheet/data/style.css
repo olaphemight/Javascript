@@ -1,0 +1,17 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.button{
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+
